@@ -3,3 +3,4 @@ scrapy-user-agents
 python-dotenv
 psycopg2
 pandas
+sqlalchemy
