@@ -47,7 +47,7 @@ jobs:
       # ─────────────── 6) Subir logs y resultados ────────────────
       - name: Guardar logs como artefacto
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: scraping-logs
           path: |
