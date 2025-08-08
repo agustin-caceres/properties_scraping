@@ -1,4 +1,4 @@
-# Scraping de Propiedades – Ejercicio 3 (Posadas, Misiones)
+# Scraping de Propiedades
 
 > **Objetivo**
 > Construir un pipeline reproducible que extraiga anuncios de *terrenos en venta* en la ciudad de **Posadas (Misiones, AR)**, transforme los datos y los aloje en una base **PostgreSQL** en la nube, con orquestación automatizada vía **GitHub Actions**.
@@ -200,5 +200,3 @@ Cron: `0 10 * * 1` → todos los lunes 07:00 ART.
 4. Cargas masivas adicionales requerirán paginar más de 2 páginas.
 
 ---
-
-> *Con esto, el ejercicio demuestra un pipeline completo, escalable y listo para producción ligera, cumpliendo todos los requisitos solicitados.*
