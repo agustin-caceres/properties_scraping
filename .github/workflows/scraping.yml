@@ -40,6 +40,9 @@ jobs:
         run: echo "DB_URL=${{ secrets.DB_URL }}" >> .env
 
       # ─────────────── 5) Ejecutar pipeline completo ──────────────
+      - name: Crear carpetas de salida
+        run: mkdir -p outputs/logs outputs/data logs
+        
       - name: Ejecutar pipeline completo
         run: |
           python -m runner.run_pipeline argenprop -a -a max_pages=3
